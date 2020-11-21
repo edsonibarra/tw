@@ -1,0 +1,17 @@
+.outter-container-reactions {
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 0.7rem;
+  /* background-color: rgb(87, 87, 110); */
+}
+.inner-container-reactions {
+  display: flex;
+}
+.inner-container-reactions > div > svg {
+  width: 20px;
+}
+.inner-container-reactions > div > svg:hover {
+  color: #1da1f2;
+  cursor: pointer;
+}

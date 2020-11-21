@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+}
+.image-container > img {
+  width: 85%;
+  height: 50%;
+  border-radius: 50%;
+}
+.image-container {
+  padding: 1rem;
+  width: 15%;
+}
+.form-container {
+  width: 85%;
+  padding: 1rem;
+}
+.button-post {
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 4rem;
+  color: white;
+  font-family: sans-serif;
+}
+.form > input {
+  display: block;
+  width: 80%;
+  padding: 1rem;
+  border: none;
+  font-size: 1.5rem;
+}
+.button-container {
+  width: 80%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.title-postTweet {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  border-bottom: solid 1px rgb(203, 203, 207);
+}
+.sparkless-container {
+  width: 5%;
+}
+.container-outter {
+  border-bottom: solid 10px rgba(197, 197, 197, 0.836);
+}

@@ -1,0 +1,16 @@
+.sidebar_button_container {
+  width: 80%;
+}
+.sidebar_button {
+  width: 60%;
+  margin: auto;
+  padding: 0.7rem;
+  background-color: #1da1f2;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+.sidebar_button:hover {
+  cursor: pointer;
+}

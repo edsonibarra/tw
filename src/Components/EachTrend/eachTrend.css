@@ -1,0 +1,19 @@
+.eachTrend-container_column_1 {
+  display: flex;
+}
+.eachTrend_image_container > img {
+  width: 80px;
+}
+.eachTrend-container {
+  background-color: #aab8c2;
+  font-family: sans-serif;
+  padding: 1rem 0.7rem;
+}
+.category-text,
+.noTweets-text {
+  font-size: 0.9rem;
+}
+.eachTrend-container:hover {
+  background-color: #e1e8ed;
+  cursor: pointer;
+}

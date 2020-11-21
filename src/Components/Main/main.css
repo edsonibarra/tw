@@ -1,0 +1,7 @@
+.main-container {
+  /* display:flex; */
+  width: 60%;
+  height: 100vh;
+  overflow: scroll;
+  /* border: solid 1px black; */
+}

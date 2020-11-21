@@ -1,0 +1,15 @@
+.searchBar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.searchBar-container > input {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #a8d5f7;
+}
