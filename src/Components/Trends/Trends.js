@@ -4,7 +4,7 @@ import { trends } from "../../dataTrends";
 
 const trendsArr = trends;
 
-export default Trends = () => (
+const Trends = () => (
   <div className="trends-container">
     {trendsArr.map((trend) => {
       return (
@@ -19,3 +19,8 @@ export default Trends = () => (
     })}
   </div>
 );
+export default Trends
+
+
+
+

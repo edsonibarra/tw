@@ -3,10 +3,10 @@ import React from "react";
 import SearchBar from "../SearchBar/SearchBar";
 import Trends from "../Trends/Trends";
 import "./sideBarCol.css";
-
-export default SidebarCol = () => (
+const SidebarCol = () => (
   <div className="sidebarCol-container">
     <SearchBar />
     <Trends />
   </div>
 );
+export default SidebarCol

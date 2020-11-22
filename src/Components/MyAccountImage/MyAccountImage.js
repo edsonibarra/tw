@@ -1,3 +1,3 @@
 import React from "react";
-
-export default MyAccountImage = (props) => <img src={props.image} />;
+const MyAccountImage = (props) => <img src={props.image} />;
+export default MyAccountImage

@@ -1,3 +1,5 @@
 import React from "react";
 
-export default Icon = (props) => <div>{props.icon}</div>;
+const Icon = (props) => <div>{props.icon}</div>;
+
+export default Icon

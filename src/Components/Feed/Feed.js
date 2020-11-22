@@ -1,7 +1,7 @@
 import React from "react";
 import Tweet from "../Tweet/Tweet";
 
-export default Feed = (props) =>
+const Feed = (props) =>
   props.tweets.map((tweet) => {
     return (
       <Tweet
@@ -16,3 +16,4 @@ export default Feed = (props) =>
       />
     );
   });
+  export default Feed

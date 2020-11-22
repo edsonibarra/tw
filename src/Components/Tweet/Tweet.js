@@ -2,7 +2,7 @@ import React from "react";
 import Reactions from "../Reactions/Reactions";
 
 import "./tweet.css";
-export default Tweet = (props) => (
+const Tweet = (props) => (
   <div>
     <div className="outter-container">
       <div className="profilePicture-container">
@@ -25,3 +25,4 @@ export default Tweet = (props) => (
     </div>
   </div>
 );
+export default Tweet

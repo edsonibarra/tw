@@ -8,7 +8,7 @@ import {
   TrashOutline
 } from "@graywolfai/react-heroicons";
 
-export default Reactions = (props) => (
+const Reactions = (props) => (
   <div className="outter-container-reactions">
     <div className="inner-container-reactions">
       <div className="reactions_icon_container">
@@ -42,3 +42,4 @@ export default Reactions = (props) => (
     </div>
   </div>
 );
+export default Reactions
