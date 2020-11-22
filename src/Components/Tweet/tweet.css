@@ -42,3 +42,29 @@
 .content-container {
   padding: 1rem;
 }
+.delete_tweet_icon_container {
+  width: 50px;
+}
+.delete_tweet_icon_container > svg {
+  width: 30px;
+  transition: .3s all;
+}
+.delete_tweet_icon_container > svg:hover {
+  color: rgb(109, 109, 255);
+  width: 35px;
+  cursor: pointer;
+}
+.delete_tweet_text_container {
+  background-color: white;
+  font-family: sans-serif;
+  width: 30%;
+  padding: 5px;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid gray;
+  transition: .3s all;
+}
+.delete_tweet_text_container:hover{
+  background-color: rgb(238, 120, 120);
+  cursor: pointer;
+}

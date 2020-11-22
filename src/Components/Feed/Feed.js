@@ -2,7 +2,7 @@ import React from "react";
 import Tweet from "../Tweet/Tweet";
 
 const Feed = (props) =>
-  props.tweets.map((tweet) => {
+  props.tweets.map((tweet, index) => {
     return (
       <Tweet
         profileUrl={tweet.profileUrl}
@@ -10,9 +10,11 @@ const Feed = (props) =>
         username={tweet.username}
         content={tweet.content}
         reactions={tweet.interaction}
-        // comments={tweet.interaction.comments}
-        // retweets={tweet.interaction.retweets}
-        // likes={tweet.interaction.likes}
+        index={index}
+        likeHandler={props.likeHandler}
+        retweetHandler={props.retweetHandler}
+        showContextM={props.showContextM}
+        sCm = {tweet.showContextM}
       />
     );
   });

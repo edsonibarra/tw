@@ -14,7 +14,9 @@ const dataTweet = [
     },
     verified: false,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Elon Musk",
@@ -29,7 +31,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Google",
@@ -44,7 +48,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "LeBron James",
@@ -58,7 +64,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "BBC Breaking News",
@@ -73,7 +81,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "NVIDIA GeForce",
@@ -89,7 +99,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "National Geographic",
@@ -103,7 +115,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Hipertextual",
@@ -117,7 +131,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Hipertextual",
@@ -131,7 +147,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Real Madrid C.F.",
@@ -146,7 +164,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "UEFA Champions League",
@@ -160,7 +180,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: false,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "FC Barcelona",
@@ -177,7 +199,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: true,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   },
   {
     profile: "Youtube",
@@ -191,7 +215,9 @@ const dataTweet = [
     },
     verified: true,
     blocked: true,
-    showContextM: false
+    showContextM: false,
+    liked : false,
+    shared: false
   }
 ];
 

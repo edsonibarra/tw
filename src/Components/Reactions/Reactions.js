@@ -20,7 +20,7 @@ const Reactions = (props) => (
           : props.reactions.comments}
       </div>
     </div>
-    <div className="inner-container-reactions">
+    <div className="inner-container-reactions" onClick={() => props.retweetHandler(props.index)}>
       <div className="reactions_icon_container">
         <ShareOutline />
       </div>
@@ -30,7 +30,7 @@ const Reactions = (props) => (
           : props.reactions.retweets}
       </div>
     </div>
-    <div className="inner-container-reactions">
+    <div className="inner-container-reactions" onClick={ () => props.likeHandler(props.index)}>
       <div className="reactions_icon_container">
         <HeartOutline />
       </div>
